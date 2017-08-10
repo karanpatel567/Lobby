@@ -1,0 +1,9 @@
+name: Lobby
+main: Lobby\Main
+version: 1.0
+api: 2.0.0
+author: Karanpatel567
+commands:
+  Lobby:
+    description: "Teleport your self to Lobby!"
+    aliases: [hub,spawn,1,l,loby,lob,lobbb,lobbby,a]
