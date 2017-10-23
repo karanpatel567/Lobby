@@ -21,7 +21,7 @@ class Main extends PluginBase implements Listener {
   public function onDisable(){
 	  $this->getLogger()->info($this->prefix.C::RED."Deactivated!");
   }
-  public function onCommand(CommandSender $s, Command $cmd,$label, array $args){
+  public function onCommand(CommandSender $s, Command $cmd,$label, array $args) :bool{
     $ds = $this->getServer()->getDefaultLevel()->getSpawnLocation();
     $name = $s->getName();
     switch($cmd->getName()){
@@ -36,4 +36,5 @@ class Main extends PluginBase implements Listener {
 		  }
 	}
   }
+	return true;
 }
