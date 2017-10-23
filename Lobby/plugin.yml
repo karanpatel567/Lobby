@@ -1,9 +1,9 @@
 name: Lobby
 main: Lobby\Main
 version: 1.0
-api: 2.0.0
+api: [3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9]
 author: Karanpatel567
 commands:
   Lobby:
     description: "Teleport your self to Lobby!"
-    aliases: [hub,spawn,1,l,loby,lob,lobbb,lobbby,a]
+    aliases: [hub,spawn,lobby,startpoint]
